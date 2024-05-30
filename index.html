@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="icon" type="image/x-icon" href="./picture/jfr.webp">
+    <script src="https://kit.fontawesome.com/852c0308b0.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm fixed-top">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#NavBar" 
+      aria-controls="NavBar" aria-expanded="true">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end ps-5" id="NavBar">
+        <ul class="navbar-nav text-end">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">
+              <span class="navtxt">Home</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#activities">
+              <span class="navtxt">Activities</span>
+            </a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="#contactme">
+              <span class="navtxt">Contact Me</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+  <div class="container0">
+  <div id="home" class="row">
+    <div class="text col-sm-12 row">
+      <div class="toptext col-12">
+      <p><span class="welcome">Welcome! </span>I am </p><h3>Rosemarie Amores</h3>
+      <br>
+      <div class="bottext">
+        <p>This is my Portfolio<span><br>To see my project below scroll down to activities page </span></p> 
+      </div>
+      <h5><a href="#activities"><span class="arrow">&#8595 &nbsp; Activites</span></a></h5>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="activities" class="row activities">
+  <center><h1>Activities</h1></center>
+  <div class="col-sm-4">
+      <div class="activity-wrapper">
+          <div class="activity">
+              <img src="./picture/login.jpg" alt="">
+              <div class="cover col-sm-12">
+                  <h3 class="cute">Log In Form</h3>
+                  <p>&#8595; Click Here To see</p>
+                  <a href="./activities/login.html" target="_blank"><i class="fa fa-solid fa-link"></i></a>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="col-sm-4">
+      <div class="activity-wrapper">
+          <div class="activity">
+              <img src="./picture/digiclock.jpg" alt="">
+              <div class="cover col-sm-12">
+                  <h3 class="cute">Digital Clock</h3>
+                  <p>&#8595; Click Here To see</p>
+                  <a href="./activities/Digital clock...html" target="_blank"><i class="fa fa-solid fa-link"></i></a>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="col-sm-4">
+      <div class="activity-wrapper">
+          <div class="activity">
+              <img src="./picture/quiz.jpg" alt="">
+              <div class="cover col-sm-12">
+                  <h3 class="cute">Interactive Quiz</h3>
+                  <p>&#8595; Click Here To see</p>
+                  <a href="./activities/interactive quiz.html" target="_blank"><i class="fa fa-solid fa-link"></i></a>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="activity-wrapper">
+        <div class="activity">
+            <img src="./picture/bmi.jpg" alt="">
+            <div class="cover col-sm-12">
+                <h3 class="cute">BMI</h3>
+                <p>&#8595; Click Here To see</p>
+                <a href="./activities/bmi.html" target="_blank"><i class="fa fa-solid fa-link"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-sm-4">
+  <div class="activity-wrapper">
+      <div class="activity">
+          <img src="./picture/todo.jpg" alt="">
+          <div class="cover col-sm-12">
+              <h3 class="cute">To-Do List</h3>
+              <p>&#8595; Click Here To see</p>
+              <a href="./activities/to do list.hmtl.html" target="_blank"><i class="fa fa-solid fa-link"></i></a>
+          </div>
+      </div>
+  </div>
+</div>
+<div class="col-sm-4">
+  <div class="activity-wrapper">
+      <div class="activity">
+          <img src="./picture/bootstrap.jpg" alt="">
+          <div class="cover col-sm-12">
+              <h3 class="cute">Bootstrap Homepage</h3>
+              <p>&#8595; Click Here To see</p>
+              <a href="./activities/homepagebt.html" target="_blank"><i class="fa fa-solid fa-link"></i></a>
+          </div>
+      </div>
+  </div>
+</div>
+<div class="col-sm-4">
+  <div class="activity-wrapper">
+      <div class="activity">
+          <img src="./picture/interactivequiz.jpg" alt="">
+          <div class="cover col-sm-12">
+              <h3 class="cute">Interactive Quiz /w Bootstrap</h3>
+              <p>&#8595; Click Here To see</p>
+              <a href="./activities/interactivequizbt.html" target="_blank"><i class="fa fa-solid fa-link"></i></a>
+          </div>
+      </div>
+  </div>
+</div>
+</div>     
+</div>
+<section class="contacts row" id="contactme">
+	<div class="col-12">
+		  <div class="container col-md-12 text-cente">
+				<div class="box2 row justify-content-center">
+				<div class="reach-us-box col-md-6" id="input-us-box">
+					  <p>REACH US</p>
+					  <form id="form">
+							<input name="name" type="text" class="form-control" id="name" placeholder="Name:">
+							<div class="error"></div>
+							<input type="email" name="email" class="form-control" id="mail" placeholder="Email:">
+							<div class="error"></div>
+							<input name="subject" type="text" class="form-control" id="phone" placeholder="Phone No.:">
+							<div class="error"></div>
+							<textarea name="message" rows="6" class="form-control" id="comment" placeholder="Your message here..."></textarea>
+							<div class="error"></div>
+							<button type="submit" class="btn btn-default"><h4>Send</h4></button>
+						</form>
+				</div>
+		  </div>          
+	</div>
+	<br>
+	<br>
+</section>
+<div class="last-page text-center">
+	<h2>"Thanks For Visiting My Portfolio"</h2>
+</div>
+</div>
+</body>
+</html>
